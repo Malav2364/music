@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+.container{
+    background: #1D2B64;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #F8CDDA, #1D2B64);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #F8CDDA, #1D2B64); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    height: 88.9vh;
+    width: 80vw;
+    gap: 20px;
+    /* border: 5px solid black; */
+    /* border-radius: 17px; */
+}
+
+#head{
+    font-weight: 800;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(60deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    padding: 5px;
+    height: 10%;
+    width: 100%;
+    /* background-color: rgb(202, 129, 129); */
+    /* border: 2px solid greenyellow; */
+    text-align: center;
+    border-radius: 17px;
+}
+
+.card2{
+    background-color: #ff0006;
+    background-image: linear-gradient(180deg, #ff0006 0%, #ff0000 22%, #000000 75%, #000000 100%);
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(202, 129, 129);
+    /* border: 2px solid greenyellow; */
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out 0.1s;
+    border-radius: 17px;
+}
+
+.card2:hover{
+    transform: rotate3d(2, 2, 2, 360deg);
+    box-shadow: 1px 2px 3px red;
+}
+
+
+.card3{
+    background-color: #3dff00;
+    background-image: linear-gradient(135deg, #3dff00 0%, #1d1c1c 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(202, 129, 129);
+    /* border: 2px solid greenyellow; */
+    transition: all 0.3s ease-in-out 0.1s;
+    border-radius: 17px;
+}
+
+.card3:hover{
+    transform: rotate3d(2, 2, 2, 360deg);
+    box-shadow: 1px 2px 3px rgb(111, 255, 63);
+
+}
+
+.card4{
+    background-color: #0093E9;
+    background-image: linear-gradient(240deg, #0093E9 0%, #80D0C7 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    /* border: 2px solid greenyellow; */
+    border-radius: 17px;
+    transition: all 0.3s ease-in-out 0.1s;
+}
+
+.card4:hover{
+    transform: rotate3d(2, 2, 2, 360deg);
+    box-shadow: 1px 2px 3px rgb(0, 255, 255);
+}
+
+
+.card5{
+    background: #FF512F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 17px;
+    transition: all 0.3s ease-in-out 0.1s;
+    /* border: 2px solid greenyellow; */
+}
+
+.card5:hover{
+    transform: rotate3d(2, 2, 2, 360deg);
+    box-shadow: 1px 2px 3px rgb(255, 0, 0);
+}
+
+.card6{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(202, 129, 129);
+    border: 2px solid greenyellow;
+}
+
+.card7{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(202, 129, 129);
+    border: 2px solid greenyellow;
+}
+
+.card8{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(202, 129, 129);
+    border: 2px solid greenyellow;
+}
+
+.card9{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(202, 129, 129);
+    border: 2px solid greenyellow;
+}
+
+#head{
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.card2 img{
+    height: 60%;
+    width: 100%;
+}
+
+.card2 button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.card2 h4{
+    color: white;
+}
+
+.card3 img{
+    height: 50px;
+    border-radius: 37px;
+}
+
+.card3 button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.card3 h4{
+    color: white;
+}
+
+.card4 img{
+    height: 50px;
+    /* border-radius: 20rem; */
+}
+
+.card4 button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.card4 h4{
+    color: white;
+}
+
+.card5 img{
+    height: 50px;
+    border-radius: 20rem;
+}
+
+.card5 button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.card5 h4{
+    color: white;
+}
